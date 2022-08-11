@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+body .section1 {
+  width: 50%;
+  height: 800px;
+  background: #f4f6f5;
+  color: #365a5a;
+}
+body .section1 .logo {
+  display: block;
+  height: 60px;
+  background: #365a5a;
+  width: 100%;
+  position: fixed;
+}
+body .section1 .logo h1 {
+  padding: 10px;
+  color: #f4f6f5;
+  font-weight: bold;
+}
+body .section1 .logo span {
+  color: #d6d6d6;
+}
+body .section2 {
+  width: 50%;
+  height: 800px;
+  background: #365a5a;
+  color: #f4f6f5;
+}
+body .section2 .nav-bar {
+  background: #f4f6f5;
+  box-sizing: border-box;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+}
+body .section2 .nav-bar ul {
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+body .section2 .nav-bar ul ul {
+  position: absolute;
+  top: 60px;
+  display: none;
+  background: #f4f6f5;
+}
+body .section2 .nav-bar ul ul ul li {
+  background: #f4f6f5;
+  position: relative;
+  top: -60px;
+  left: 150px;
+}
+body .section2 .nav-bar ul ul li {
+  width: 150px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+body .section2 .nav-bar ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+body .section2 .nav-bar ul li:hover > ul {
+  display: block;
+}
+body .section2 .nav-bar ul li a {
+  display: block;
+  padding: 0 15px;
+  color: #365a5a;
+  text-decoration: none;
+  line-height: 60px;
+  font-size: 20px;
+}
+body .section2 .nav-bar ul li a:hover {
+  background: #1e3e3e;
+}/*# sourceMappingURL=nav-bar.css.map */
