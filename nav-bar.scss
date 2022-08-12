@@ -65,9 +65,6 @@ body{
                     list-style: none;
                     display: inline-block;
                     position: relative;
-                    :hover > ul{
-                        display: block;
-                    }
                     a{
                         display: block;
                         padding: 0 15px;
@@ -75,12 +72,16 @@ body{
                         text-decoration: none;
                         line-height: 60px;
                         font-size: 20px;
-                        :hover{
-                            background: #1e3e3e;
-                        }
+                    }
+                    a:hover{
+                        background: #1e3e3e;
+                        color: #f4f6f5;
                     }
                 }
-            }
+                li:hover > ul{
+                    display: block;
+                }
+            }   
         }
     }
 }
